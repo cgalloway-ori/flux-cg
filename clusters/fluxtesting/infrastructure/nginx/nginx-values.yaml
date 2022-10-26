@@ -3,4 +3,12 @@ kind: HelmRelease
 metadata:
   name: nginx
 spec:
-  releaseName: nginx-ingress-controller-internal
+  releaseName: nginx-ingress-controller
+values:
+  controller:
+    ingressClassResource:
+      name: private
+      enabled: true
+      default: true
+    ingressClass: private
+
