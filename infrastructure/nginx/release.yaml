@@ -6,12 +6,12 @@ spec:
   releaseName: nginx-ingress-controller
   chart:
     spec:
-      chart: nginx-ingress-controller
+      chart: ingress-nginx
       sourceRef:
         kind: HelmRepository
-        name: bitnami
+        name: kubernetes
         namespace: flux-system
-      version: "9.x"
+      version: "4.x"
   interval: 1h0m0s
   install:
     remediation:
