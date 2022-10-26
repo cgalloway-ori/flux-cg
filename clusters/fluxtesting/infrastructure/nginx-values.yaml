@@ -5,6 +5,7 @@ metadata:
   namespace: nginx
 spec:
   releaseName: nginx-ingress-controller
+  interval: 1h0m0s
   values:
     controller:
       ingressClassResource:
