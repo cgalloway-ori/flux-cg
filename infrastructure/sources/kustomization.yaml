@@ -6,3 +6,4 @@ resources:
  # - podinfo.yaml
   - kubernetes.yaml
   - prometheus-community.yaml
+  - sealed-secrets.yaml
