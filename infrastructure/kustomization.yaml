@@ -5,4 +5,5 @@ resources:
   - nginx
   - kube-prometheus-stack
   - sealed-secrets
+  - loki
 

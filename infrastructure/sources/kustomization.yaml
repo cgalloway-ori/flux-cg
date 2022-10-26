@@ -7,3 +7,4 @@ resources:
   - kubernetes.yaml
   - prometheus-community.yaml
   - sealed-secrets.yaml
+  - grafana.yaml
