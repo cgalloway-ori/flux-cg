@@ -6,10 +6,10 @@ metadata:
 spec:
   releaseName: nginx-ingress-controller
   values:
-  controller:
-    ingressClassResource:
-      name: private
-      enabled: true
-      default: true
-    ingressClass: private
+    controller:
+      ingressClassResource:
+        name: private
+        enabled: true
+        default: true
+      ingressClass: private
 
